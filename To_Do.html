@@ -1,0 +1,47 @@
+#TO DO
+#create percentages in the value counts
+#create x and y
+#create distribution for sex and age graph
+#filter the data set just for women
+    # Filter the DataFrame for only females
+    # Female_data = all_heart_df1[all_heart_df1['sex'] == 'Female']
+#Target Variable (Y):
+
+#In this dataset, the target variable for heart attack risk is typically the output column.
+#The output column indicates whether the patient is at risk of a heart attack:
+#0: No heart attack
+#1: Heart attack
+
+#Feature Variables (X):
+
+#The following columns from the dataset can be used as features to predict heart attack (inputs for X):
+#age: Age of the patient
+#cp: Chest pain type (4 values)
+#trtbps: Resting blood pressure (in mm Hg)
+chol: Serum cholesterol in mg/dl
+fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
+restecg: Resting electrocardiographic results (values 0, 1, 2)
+thalachh: Maximum heart rate achieved
+exng: Exercise-induced angina (1 = yes; 0 = no)
+oldpeak: ST depression induced by exercise relative to rest
+slp: Slope of the peak exercise ST segment
+caa: Number of major vessels (0–3) colored by fluoroscopy
+thall: Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect)
+Based on this, your X will consist of these features:
+
+python
+Copy code
+X = female_data[['age', 'cp', 'trtbps', 'chol', 'fbs', 'restecg', 'thalachh', 'exng', 'oldpeak', 'slp', 'caa', 'thall']]
+Full Example Code:
+python
+Copy code
+# Assuming you've already filtered the data for females
+female_data = all_heart_df1[all_heart_df1['sex'] == 'Female']
+
+# Define X (input features) and Y (target variable)
+X = female_data[['age', 'cp', 'trtbps', 'chol', 'fbs', 'restecg', 'thalachh', 'exng', 'oldpeak', 'slp', 'caa', 'thall']]
+Y = female_data['output']
+
+# Now X contains the features and Y contains the target
+print(X.head())  # Display the first few rows of X
+print(Y.head())  # Display the first few rows of Y

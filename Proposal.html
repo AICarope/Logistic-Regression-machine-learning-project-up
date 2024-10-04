@@ -1,0 +1,141 @@
+"Machine Learning and Logistic Regression in Heart Attack Risk Prediction for Female Populations"
+
+
+1. Domain Background
+Cardiovascular diseases, particularly heart attacks, remain a leading cause of mortality globally, with distinct risk factors between men and women. This study, "Machine Learning and Logistic Regression in Heart Attack Risk Prediction for Female Populations," 
+seeks to address this gender gap by developing predictive models that specifically focus on women. 
+Using logistic regression and machine learning techniques, the goal is to analyze the key health risks contributing to heart attacks in women, including factors like age, cholesterol levels, blood pressure, diabetes, obesity, smoking, stress, and more.
+
+Heart attack symptoms can be subtle in women and often differ from men’s classic symptoms (such as chest pain):
+	• Fatigue: Unusual fatigue, especially if it's new or dramatic, may be a warning sign.
+	• Shortness of Breath: Even without chest pain, it can indicate cardiovascular stress.
+	• Back, Neck, or Jaw Pain: These are more common heart attack symptoms in women.
+	• Nausea or Vomiting: Women may experience this symptom without any chest pain.
+	• Lightheadedness or Dizziness: This is also a possible warning signs
+    • Pressure or Tightness in the Chest: Though chest pain is common in men, women often describe it as pressure or discomfort rather than sharp pain.
+
+This project leverages a diverse dataset comprising attributes such as Patient ID, Age, Sex, Cholesterol, Blood Pressure, Heart Rate, Diabetes, Family History, Smoking, Obesity, Alcohol Consumption, Exercise Hours Per Week, Diet, Previous Heart Problems, 
+Medication Use, Stress Level, Sedentary Hours Per Day, Income, BMI, Triglycerides, Physical Activity Days Per Week, Sleep Hours Per Day, Country, Continent, and Hemisphere. These features allow for a comprehensive risk assessment and the identification of key 
+contributors to heart attacks in female populations. Through this study, the goal is to create more personalized and accurate heart attack risk models tailored to women's health profiles.
+
+
+2. Problem Statement
+Develop a Logisitcs Regression based machine learning model to analyze the associations between females with predictions of heart attack, while seeking to understand the interrelationships and potential predictive factors for Age, Sex, Cholesterol, 
+Blood Pressure, Heart Rate, Diabetes, Family History, Smoking, Obesity, Alcohol Consumption, Exercise Hours Per Week, Diet, Previous Heart Problems, 
+Medication Use, Stress Level, Sedentary Hours Per Day, Income, BMI, Triglycerides, Physical Activity Days Per Week, Sleep Hours Per Day, Country, Continent, and Hemisphere. These features allow for a comprehensive risk assessment and the identification of key 
+contributors to heart attacks in female populations. Through this study, is to create more personalized and accurate heart attack risk models tailored to women's health profiles.
+The predictive model can have an accuracy of 80% as a baseline and it will be evaluated after executing a detail analysis using Python for Data Science and Machine learning algorithms. 
+
+
+3. Datasets and Inputs
+DATASET: https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset
+The synthetic data set has 8763 patient entries. Male 6111 and Female 2652. It contains various demographic, health, and lifestyle attributes critical for risk assessment.
+For instance:
+
+    -Demographics: Patient ID, Age, Sex, Income, Country, Continent, Hemisphere
+    -Health Metrics: Cholesterol, Blood Pressure, Heart Rate, Diabetes, BMI, Triglycerides
+    -Lifestyle Factors: Smoking, Alcohol Consumption, Exercise Hours Per Week, Diet, Physical Activity Days, Sedentary Hours, Sleep Hours
+    -Medical History: Family History of heart disease, Previous Heart Problems, Medication Use, Stress Level
+
+This comprehensive dataset aims to support predictive modeling for heart attacks, specifically focusing on women's health.
+
+X = Predictor variables
+            X = Health Metrics,Lifestyle Factors and Medical History
+            
+            - `Age`: Numerical (Integer).  From 150 to 400. High cholesterol generally means your total cholesterol is 200 mg/dL or higher
+            - `Cholesterol`: Numerical (Float/Integer).From 150 to 400. High cholesterol generally means your total cholesterol is 200 mg/dL or higher.
+            - `Blood Pressure`: Numerical (Float/Integer)
+            - `Heart Rate`: Numerical (Float/Integer)
+            - `Diabetes`:  Categorical (Yes/No)
+            - `Family History`: Categorical (1: Yes, 0: No)
+            - `Smoking`: Categorical (1: Smoker, 0: Non-smoker)
+            - `Obesity`: Categorical (1: Obese, 0: Not Obese)
+            - `Alcohol Consumption`: Categorical (None/Light/Moderate/Heavy)
+            - `Exercise Hours Per Week`:Numerical (Float/Integer)
+            - `Diet`:Categorical (Healthy/Average/Unhealthy)
+            - `Previous Heart Problems`:Categorical (1: Yes, 0: No)
+            - `Medication Use`:Categorical (1: Yes, 0: No)
+            - `Stress Level`:Numerical (Integer 1-10)
+            - `Sedentary Hours Per Day`: Numerical (Float/Integer)
+            - 'Income': Numerical (Float/Integer)
+            - `BMI`: Numerical (Float/Integer)
+            - `Triglycerides`: Numerical (Float/Integer)
+            - `Physical Activity Days Per Week`:Numerical (Integer)
+            - `Sleep Hours Per Day`: Numerical (Float/Integer)
+            - 'Country' : Categorical (Text)
+         
+            Note: Exclude Male Sex and Patient ID columns.
+
+Y =  Target variable being predicted
+            Y = Female>Heart Attack Risk. Presence of heart attack risk (1: Yes, 0: No)
+            Sex: Categorical (Male/Female)
+
+
+Objective: 
+        
+                1. Explore the patterns and associations between risk factors and heart attack predictions in women.
+                2. Develop predictive models to identify potential risk factors or indicators for the co-occurrence of heart attacks.
+                3. Provide insights that can contribute to the development of targeted interventions and personalized treatment approaches for women.
+Significance: This research can potentially improve clinical practices, enhance early detection strategies, and contribute to the overall well-being of individuals affected by heart attack conditions.         
+
+4. Solution Statement
+
+5. Benchmark Model
+
+6. Evaluation Metrics
+
+7. Project Design
+
+Step 1: Data Collection and Preprocessing
+Data Collection: Obtain access to the  dataset to identify  
+Data Cleaning: Address any missing or inconsistent data, handle unknown and control values, and ensure data quality and consistency, to reflect only (0) not present or (1) present for ADHD, SUBSTNACE and ANXIETY.
+Data Exploration: Conduct exploratory data analysis to understand the distribution and relationships within the dataset, and visualize the age range and frequency of co-occurring conditions. Keeping in mind that the variable types:
+•	X=  Qualitative>Ordinal variable
+•	X = Qualitative>Nominal>Categorical variable
+•	Y =  Qualitative>Nominal variable
+•	Y =  Qualitative>Nominal variable
+
+Step 2: Feature Engineering and Selection
+Determine relevant features that can explain the variation in
+
+Step 3: Model Development and Training
+Decision Tree Model Selection: 
+Data Splitting: Split the dataset into training and testing sets to enable model evaluation. For example,   
+X = Predictor variables 
+•	X_train:80% 
+•	X_test:20% 
+Y = variables being predicted TARGET VARIABLE
+•	Y_train:80% 
+•	Y_test: 20%
+Model Training: Train the decision tree model using the ...dataset, including the features related to 
+
+Step 4: Model Evaluation and Optimization
+Performance Metrics: Evaluate the model's performance using metrics such as accuracy, precision, recall, and F1 score.
+Cross-Validation: Implement cross-validation techniques to ensure robust model evaluation and mitigate overfitting.
+Hyperparameter Tuning: Optimize the decision tree model's hyperparameters to enhance its predictive capabilities and generalization.
+
+Step 5: Interpretation and Insights
+Model Interpretation: Analyze the ......to understand the associations and predictive factors related to ....
+
+Step 6: Visualization and Reporting
+Results Visualization: Visualize the decision tree model's structure, feature importances, and key insights using appropriate visualization techniques.
+Report Generation: Summarize the project findings, including the associations between ADHD and co-occurring conditions, the impact of age range, and potential predictive factors.
+
+Step 7: Deployment and Application
+Model Deployment: Prepare the decision tree model for deployment in GitHub
+By following this end-to-end workflow, the project aims to develop a robust binary decision tree model to analyze the associations between adults with ADHD and co-occurring conditions, providing valuable insights into their interrelationships and potential predictive factors.
+
+        
+Step 8: Recommendation:
+Certain cardiovascular risks are influenced by sex and gender. For example, lower estrogen levels in younger women and pregnancy complications can raise cardiovascular risks. Gender-related factors include marital stress and lower socioeconomic status, 
+both linked to heart disease and heart attacks in women. Recognizing these differences is important for understanding cardiovascular disease (CVD) in women and developing targeted interventions like screenings to improve outcomes. In this context,
+"women" refers to the female sex unless otherwise stated.
+
+Appendix:
+        DS/ML Capstone Proposal Instructions: https://codingnomads.com/dsml-capstone-proposal-instructions
+        DS/ML Capstone Proposal Form: https://codingnomads.com/dsml-capstone-proposal-form-lab
+        Semi-Formal Research Paper Format : https://codingnomads.com/dsml-capstone-formal-research-paper-format
+        DS/ML Capstone Report Template: https://codingnomads.com/dsml-capstone-report-template
+        Source: https://www.kaggle.com/datasets/arashnic/adhd-diagnosis-data, https://dl.acm.org/doi/pdf/10.1145/3458305.3478454 (white paper)
+        https://github.com/simula/hyperaktiv (Github)
+        https://osf.io/2tk4r (Data set view)
