@@ -139,3 +139,123 @@ Appendix:
         Source: https://www.kaggle.com/datasets/arashnic/adhd-diagnosis-data, https://dl.acm.org/doi/pdf/10.1145/3458305.3478454 (white paper)
         https://github.com/simula/hyperaktiv (Github)
         https://osf.io/2tk4r (Data set view)
+
+CAPSTONE
+        https://classroom.emeritus.org/courses/9414/pages/capstone-project-overview?module_item_id=1826037 
+
+        # Machine Learning and Logistic Regression in Heart Attack Risk Prediction for Female Populations
+
+---
+
+## 1. Domain Background
+
+Cardiovascular diseases, particularly heart attacks, remain a leading cause of mortality globally, with distinct risk factors between men and women. This study, **"Machine Learning and Logistic Regression in Heart Attack Risk Prediction for Female Populations,"** seeks to address this gender gap by developing predictive models that specifically focus on women.
+
+Using logistic regression and machine learning techniques, the goal is to analyze the key health risks contributing to heart attacks in women, including factors like age, cholesterol levels, blood pressure, diabetes, obesity, smoking, stress, and more.
+
+### Heart Attack Symptoms in Women
+Heart attack symptoms can be subtle in women and often differ from men’s classic symptoms (such as chest pain):
+- **Fatigue**: Unusual fatigue, especially if it's new or dramatic, may be a warning sign.
+- **Shortness of Breath**: Even without chest pain, it can indicate cardiovascular stress.
+- **Back, Neck, or Jaw Pain**: These are more common heart attack symptoms in women.
+- **Nausea or Vomiting**: Women may experience this symptom without any chest pain.
+- **Lightheadedness or Dizziness**: This is also a possible warning sign.
+- **Pressure or Tightness in the Chest**: Though chest pain is common in men, women often describe it as pressure or discomfort rather than sharp pain.
+
+This project leverages a diverse dataset comprising attributes such as:
+- Patient ID, Age, Sex, Cholesterol, Blood Pressure, Heart Rate, Diabetes, Family History, Smoking, Obesity, Alcohol Consumption, Exercise Hours Per Week, Diet, Previous Heart Problems, Medication Use, Stress Level, Sedentary Hours Per Day, Income, BMI, Triglycerides, Physical Activity Days Per Week, Sleep Hours Per Day, Country, Continent, and Hemisphere.
+
+These features allow for a comprehensive risk assessment and the identification of key contributors to heart attacks in female populations. Through this study, the goal is to create more personalized and accurate heart attack risk models tailored to women's health profiles.
+
+---
+
+## 2. Problem Statement
+
+The aim is to develop a **Logistic Regression-based Machine Learning Model** to analyze the associations between females with predictions of heart attack, while seeking to understand the interrelationships and potential predictive factors such as:
+- Age, Sex, Cholesterol, Blood Pressure, Heart Rate, Diabetes, Family History, Smoking, Obesity, Alcohol Consumption, Exercise Hours Per Week, Diet, Previous Heart Problems, Medication Use, Stress Level, Sedentary Hours Per Day, Income, BMI, Triglycerides, Physical Activity Days Per Week, Sleep Hours Per Day, Country, Continent, and Hemisphere.
+
+### Objective
+1. Explore the patterns and associations between risk factors and heart attack predictions in women.
+2. Develop predictive models to identify potential risk factors or indicators for the co-occurrence of heart attacks.
+3. Provide insights that can contribute to the development of targeted interventions and personalized treatment approaches for women.
+
+The predictive model aims for an accuracy of **80% as a baseline**, evaluated after detailed analysis using **Python for Data Science and Machine Learning Algorithms**.
+
+---
+
+## 3. Datasets and Inputs
+
+**Dataset Source**: [Kaggle - Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)
+
+### Dataset Overview
+- **Total Records**: 8,763 patient entries (6,111 males and 2,652 females).
+- **Features Include**:
+  - **Demographics**: Patient ID, Age, Sex, Income, Country, Continent, Hemisphere.
+  - **Health Metrics**: Cholesterol, Blood Pressure, Heart Rate, Diabetes, BMI, Triglycerides.
+  - **Lifestyle Factors**: Smoking, Alcohol Consumption, Exercise Hours Per Week, Diet, Physical Activity Days, Sedentary Hours, Sleep Hours.
+  - **Medical History**: Family History, Previous Heart Problems, Medication Use, Stress Level.
+
+### Variables
+- **Predictor Variables (X)**:
+  - Health Metrics, Lifestyle Factors, and Medical History.
+- **Target Variable (Y)**:
+  - Female > Heart Attack Risk (1: Yes, 0: No).
+
+### Note
+- Exclude **Male** entries and **Patient ID**.
+
+---
+
+## 4. Solution Statement
+
+Using a Logistic Regression Model, the project will:
+1. Analyze the association of risk factors with heart attack predictions in women.
+2. Identify the strongest predictors for heart attacks in female populations.
+3. Develop actionable insights to aid healthcare providers in preventive care and early intervention.
+
+---
+
+## 5. Benchmark Model
+
+The logistic regression model will establish a baseline accuracy of **80%** for performance evaluation, which will be compared against advanced algorithms if necessary.
+
+---
+
+## 6. Evaluation Metrics
+
+Key metrics to evaluate model performance:
+- **Accuracy**: Overall correctness of the model.
+- **Precision**: Positive predictive value.
+- **Recall (Sensitivity)**: Ability to identify true positives.
+- **F1-Score**: Balance of precision and recall.
+- **AUC-ROC**: Ability to distinguish between classes.
+
+---
+
+## 7. Project Design
+
+### Step 1: Data Collection and Preprocessing
+- **Data Cleaning**: Address missing values and inconsistencies.
+- **Data Exploration**: Conduct EDA to understand data distribution and relationships.
+
+### Step 2: Feature Engineering and Selection
+- Select and engineer relevant features to improve predictive power.
+
+### Step 3: Model Development and Training
+- Train and validate the logistic regression model using an **80-20 split** for training and testing.
+
+### Step 4: Model Evaluation and Optimization
+- Evaluate performance metrics and refine the model.
+
+### Step 5: Insights and Recommendations
+- Interpret model results and provide actionable recommendations for healthcare interventions.
+
+---
+
+## 8. Recommendations
+
+Certain cardiovascular risks are influenced by **sex and gender**. For example:
+- Lower estrogen levels in younger women and pregnancy complications can raise cardiovascular risks.
+- Gender-related factors like marital stress and lower socioeconomic status are linked to heart disease and heart attacks in women.
+
+Recognizing these differences is crucial for improving cardiovascular outcomes in women through targeted interventions and screenings.
