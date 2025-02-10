@@ -1,6 +1,6 @@
 Update me again
 # Capstone Project: Heart Attack Risk Prediction in Female Populations
-##🚧 In Progress
+## 🚧 In Progress
 
 Developing a **Logistic Regression machine learning model to predict heart attack risk in female populations**. The focus is on identifying key predictive factors such as age, cholesterol, blood pressure, smoking, obesity, and stress and understanding their interrelationships.
 Using a dataset from Kaggle, containing 8,763 patient entries, with 2,652 female patients, the goal is to accurately predict heart attack risk based on health metrics, lifestyle factors, and medical history.
@@ -9,7 +9,7 @@ The model is evaluated using Python, applying metrics such as accuracy, precisio
 ## Materials
 You can access the materials by clicking
 
--[Python Notebook: Exploratory Data Analysis(EDA)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)
+-[Python Notebook: Exploratory Data Analysis (EDA)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)
 
 -[Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)
 
