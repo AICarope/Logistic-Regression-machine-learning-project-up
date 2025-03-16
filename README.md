@@ -104,7 +104,9 @@ Female smokers, particularly those over 59 years old (1,094 individuals), exhibi
 
 ### 📊 Baseline Performance Overview:
 
-In evaluating the performance of various machine learning models, **accuracy, recall (sensitivity), and F1-score** were used to assess effectiveness.
+![image](https://github.com/user-attachments/assets/ca0307e5-1e12-44ac-bf45-39e4f1df22be)
+
+In evaluating the performance of various machine learning models for predicting heart attack risk among female patients, several key metrics were utilized to assess their effectiveness. **Accuracy** was measured to determine the proportion of correct predictions made by each model. However, given the class imbalance in the dataset, with a higher number of 'no-risk' cases compared to 'at-risk' cases, additional metrics were crucial for a comprehensive evaluation. **Recall** (Sensitivity) for the 'at-risk' class was calculated to identify the model's ability to correctly detect actual positive cases, reflecting its effectiveness in identifying patients truly at risk. The **F1-Score** for the 'at-risk' class, which is the harmonic mean of precision and recall, was also computed to provide a balanced measure of the model's performance, especially in scenarios with imbalanced classes. These metrics collectively offered a nuanced understanding of each model's predictive capabilities, guiding the selection of the most appropriate algorithm for accurate heart attack risk prediction in the female cohort.
 
 | Model | Accuracy | Recall (High-Risk) | F1-Score (High-Risk) | Notes |
 |-------|----------|--------------------|----------------------|--------|
@@ -124,7 +126,7 @@ The **Random Forest with SMOTE** model performed the best:
 - **Precision:** 67%
 - **Recall:** 66%
 
-**SMOTE (Synthetic Minority Over-sampling Technique)** effectively balanced the dataset, improving recall and ensuring fewer high-risk cases go undetected.
+**SMOTE (Synthetic Minority Over-sampling Technique)** effectively balanced the dataset, improving recall and ensuring fewer high-risk cases go undetected. This means the model is better at correctly identifying positive heart attack cases, reducing the risk of missing high-risk individuals. Compared to other models, it provides a strong balance between precision and recall, making it a more reliable choice for heart attack risk prediction in women. The enhanced recall ensures that fewer high-risk cases go undetected, improving early intervention strategies.
 
 ---
 
@@ -144,6 +146,8 @@ Feature importance analysis showed that **stress level and previous heart proble
 | **Heart Rate** | 5.66% |
 | **Obesity** | 5.56% |
 | **Diabetes** | 5.51% |
+
+In addition, for this analysis of heart attack risk among female patients, a notable collinearity was observed between the variables smoking and age. This relationship indicates that as age increases, the likelihood of smoking also rises, which can complicate the interpretation of each variable's individual impact on heart attack risk. Despite this collinearity, feature importance assessments from the machine learning models revealed that stress level and previous heart problems were more significant predictors of heart attack risk than smoking and age. This suggests that while smoking and age are related, their combined effect may be less critical in the presence of other dominant risk factors. Addressing collinearity is essential to ensure accurate model interpretations and to identify the most influential predictors for targeted.
 
 ---
 
