@@ -8,13 +8,7 @@ Using a dataset from Kaggle, containing **8,763 patient records** (including **2
 
 ---
 
-## 📂 Materials
 
-You can access the materials by clicking
-
--[Python Notebook: Exploratory Data Analysis (EDA)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)
-
--[Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)![image](https://github.com/user-attachments/assets/316d1eec-37a3-460c-86ae-b8ab695b78b3)
 ---
 
 ## 🔬 Methodology
