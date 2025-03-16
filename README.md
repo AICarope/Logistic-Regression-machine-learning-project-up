@@ -104,9 +104,6 @@ Female smokers, particularly those over 59 years old (1,094 individuals), exhibi
 
 ### 📊 Baseline Performance Overview:
 
-![image](https://github.com/user-attachments/assets/ca0307e5-1e12-44ac-bf45-39e4f1df22be)
-## Dataset Split With Proportion
-
 | Dataset Split  | X (Predictor Variables) | Y (Target Variable) | Proportion (%) |
 |---------------|------------------------|---------------------|---------------|
 | **Training Set** | 1856 | 1856 | 74.99 |
