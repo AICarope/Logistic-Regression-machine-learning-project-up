@@ -7,7 +7,12 @@ Cardiovascular disease (CVD) is the leading cause of death among women globally,
 Using a dataset from Kaggle, containing **8,763 patient records** (including **2,652 female patients**), and leveraging **Python, Logistic Regression, and Machine Learning** techniques, this project aims to predict **heart attack risk in women** and identify key contributing factors. The model analyzes **health, lifestyle, and demographic variables** to enhance **early detection, prevention, and healthcare interventions**.
 
 ---
+## Materials
+You can access the materials by clicking
 
+-[Python Notebook: Exploratory Data Analysis (EDA)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)
+
+-[Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)
 
 ---
 
