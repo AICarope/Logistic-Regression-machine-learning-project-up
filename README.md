@@ -1,4 +1,4 @@
-# Heart Attack Risk Prediction in Women
+# Logistic Regression of Heart Attack Risk Prediction in Women
 
 ## Introduction
 
