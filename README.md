@@ -1,4 +1,4 @@
-# Logistic Regression of Heart Attack Risk Prediction in Women
+# Logistic Regression-Based Machine Learning Model for Predicting Heart Attack Risk in Women
 
 ## Introduction
 
