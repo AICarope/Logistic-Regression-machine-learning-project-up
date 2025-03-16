@@ -74,6 +74,7 @@ To ensure data integrity, the following preprocessing steps were applied:
 
 📊 **Smoking Correlation Analysis**:
 - **Strongest positive correlation:** Smoking and Age (**0.81**) – *older women tend to smoke more*.
+  
 ![image](https://github.com/user-attachments/assets/5e54ffa6-d3c8-4f38-9b9c-e520c1841a4a)
 
 ### Smoking & Heart Attack Risk
