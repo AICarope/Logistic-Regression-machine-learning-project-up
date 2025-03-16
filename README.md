@@ -74,6 +74,7 @@ To ensure data integrity, the following preprocessing steps were applied:
 
 📊 **Smoking Correlation Analysis**:
 - **Strongest positive correlation:** Smoking and Age (**0.81**) – *older women tend to smoke more*.
+![image](https://github.com/user-attachments/assets/5e54ffa6-d3c8-4f38-9b9c-e520c1841a4a)
 
 ### Smoking & Heart Attack Risk
 
@@ -84,6 +85,7 @@ To ensure data integrity, the following preprocessing steps were applied:
 #### **Survival Rates With Heart Attack Risk**:
 - **Smokers aged 40-59:** 35.17%
 - **Smokers over 59:** 35.19%
+![image](https://github.com/user-attachments/assets/05971317-0801-4aef-90e9-fecd9c7baa6f)
 
 ### Other Variables:
 - Many women in the dataset experience **moderate to high stress**, with levels **5 and 6 being most common**.
@@ -92,6 +94,7 @@ To ensure data integrity, the following preprocessing steps were applied:
 - **Cholesterol increases with age**, affecting **456 young women (19-39), 399 adults (40-59), and 643 seniors (60+)**.
 - **Heart rate analysis** shows most women have normal rates (**1,489**), but many experience **bradycardia (786) or tachycardia (377)**.
 - **Diabetes significantly raises heart attack risk**, especially for **women aged 40-50**.
+![image](https://github.com/user-attachments/assets/2cdb6424-79d8-44ec-a34b-3ff4572650cf)
 
 ---
 
