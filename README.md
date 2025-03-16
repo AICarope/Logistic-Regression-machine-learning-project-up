@@ -12,18 +12,13 @@ Using a dataset from Kaggle, containing **8,763 patient records** (including **2
 
 📌 Access the analysis notebooks:
 
-- 📊 [Python Notebook: Exploratory Data Analysis (EDA)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)![image](https://github.com/user-attachments/assets/af95277a-f593-403d-8d54-d4c189c8a5e9)
-- 🤖 [Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)![image](https://github.com/user-attachments/assets/48174e02-39a2-4f24-b2d8-360494dfa4b5)
-
-## 📂 Materials
-
-📌 Access the analysis notebooks:
-
 ### 📊 Exploratory Data Analysis (EDA)
 [![Python Notebook: Exploratory Data Analysis (EDA)](https://github.com/user-attachments/assets/af95277a-f593-403d-8d54-d4c189c8a5e9)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/2_Women_EDA.ipynb)
 
 ### 🤖 Machine Learning Models (ML)
 [![Python Notebook: Machine Learning (ML)](https://github.com/user-attachments/assets/48174e02-39a2-4f24-b2d8-360494dfa4b5)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)
+
+
 
 ---
 
