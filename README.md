@@ -105,6 +105,13 @@ Female smokers, particularly those over 59 years old (1,094 individuals), exhibi
 ### 📊 Baseline Performance Overview:
 
 ![image](https://github.com/user-attachments/assets/ca0307e5-1e12-44ac-bf45-39e4f1df22be)
+## Dataset Split With Proportion
+
+| Dataset Split  | X (Predictor Variables) | Y (Target Variable) | Proportion (%) |
+|---------------|------------------------|---------------------|---------------|
+| **Training Set** | 1856 | 1856 | 74.99 |
+| **Testing Set**  | 619  | 619  | 25.01 |
+| **Total**       | 2475 | 2475 | 100.0 |
 
 In evaluating the performance of various machine learning models for predicting heart attack risk among female patients, several key metrics were utilized to assess their effectiveness. **Accuracy** was measured to determine the proportion of correct predictions made by each model. However, given the class imbalance in the dataset, with a higher number of 'no-risk' cases compared to 'at-risk' cases, additional metrics were crucial for a comprehensive evaluation. **Recall** (Sensitivity) for the 'at-risk' class was calculated to identify the model's ability to correctly detect actual positive cases, reflecting its effectiveness in identifying patients truly at risk. The **F1-Score** for the 'at-risk' class, which is the harmonic mean of precision and recall, was also computed to provide a balanced measure of the model's performance, especially in scenarios with imbalanced classes. These metrics collectively offered a nuanced understanding of each model's predictive capabilities, guiding the selection of the most appropriate algorithm for accurate heart attack risk prediction in the female cohort.
 
