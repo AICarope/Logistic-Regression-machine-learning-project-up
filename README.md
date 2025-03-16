@@ -14,6 +14,8 @@ You can access the materials by clicking
 
 -[Python Notebook: Machine Learning (ML)](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/3_Women_ML.ipynb)
 
+-[Researp Paper Report](https://github.com/AICarope/Logistic-Regression-machine-learning-project-up/blob/main/Logistic%20Regression%20Research%20Report.pdf)
+
 ---
 
 ## 🔬 Methodology
