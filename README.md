@@ -160,4 +160,4 @@ This study identifies **key factors contributing to heart attack risk in women**
 - **Expand the dataset** for better risk assessment.
 - **Further optimize machine learning models** with cost-sensitive learning techniques.
 
-This project demonstrates how **machine learning can improve heart attack risk prediction in women**, paving the way for **more personalized, AI-driven healthcare interventions**. 🚀
+This project demonstrates how **machine learning can improve heart attack risk prediction in women**, paving the way for **more personalized, AI-driven healthcare interventions**. For instance this prototype [VivaHeart] (https://github.com/AICarope/Deep-Learning-CNN-Artificial-Intelligence-Project) 🚀
