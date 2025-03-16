@@ -63,14 +63,14 @@ To ensure data integrity, the following preprocessing steps were applied:
 ### Geographic Trends in Smoking
 
 #### **Highest % of Female Smokers by Continent**:
-- 🌍 **Africa:** 68.8%
-- 🌍 **Europe:** 67.7%
-- 🌍 **Asia/South America:** 65.7%
+- **Africa:** 68.8%
+- **Europe:** 67.7%
+- **Asia/South America:** 65.7%
 
 #### **Top 3 Countries with Most Female Smokers**:
-1. 🇮🇹 **Italy:** 72.1%
-2. 🇿🇦 **South Africa:** 70.9%
-3. 🇻🇳 **Vietnam:** 70.3%
+1. **Italy:** 72.1%
+2. **South Africa:** 70.9%
+3. **Vietnam:** 70.3%
 
 📊 **Smoking Correlation Analysis**:
 - **Strongest positive correlation:** Smoking and Age (**0.81**) – *older women tend to smoke more*.
