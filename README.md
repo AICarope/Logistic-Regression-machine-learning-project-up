@@ -78,6 +78,7 @@ To ensure data integrity, the following preprocessing steps were applied:
 ![image](https://github.com/user-attachments/assets/5e54ffa6-d3c8-4f38-9b9c-e520c1841a4a)
 
 ### Smoking & Heart Attack Risk
+Female smokers, particularly those over 59 years old (1,094 individuals), exhibit a high smoking prevalence, while 654 adult females aged 39-59 are also affected. Smoking significantly impacts heart attack risk and survival rates. Among smokers, survival without heart attack risk is nearly identical for adults (64.83%) and seniors (64.81%). However, when heart attack risk is present, survival drops to 35.17% for adults and 35.19% for seniors, highlighting smoking's severe cardiovascular effects. Additionally, 49.1% of female patients have a family history of heart-related problems. These findings emphasize the need for targeted interventions and prevention strategies for female smokers.
 
 #### **Survival Rates Without Heart Attack Risk**:
 - **Smokers aged 40-59:** 64.83%
