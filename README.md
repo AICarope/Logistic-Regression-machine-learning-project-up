@@ -26,9 +26,9 @@ The dataset captures **key attributes** critical for understanding cardiovascula
 - **Health Metrics:** Cholesterol, Blood Pressure, Heart Rate, Diabetes, BMI, Triglycerides
 - **Lifestyle Factors:** Smoking, Alcohol Consumption, Exercise Hours, Diet, Physical Activity, Sedentary Hours, Sleep Hours
 - **Medical History:** Family History of Heart Disease, Previous Heart Problems, Medication Use, Stress Level
+ **Dataset Name:** `female_heart_df2`  
+ **Source:** Kaggle - [Kaggle - Heart Attack Prediction Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/heart-attack-prediction-dataset)![image](https://github.com/user-attachments/assets/e24bef43-6fff-4752-8d20-8abd410e5c4d)
 
-📌 **Dataset Name:** `female_heart_df2`  
-📌 **Source:** Kaggle - *Heart Attack Prediction Dataset*
 
 ### Target and Predictor Variables
 
