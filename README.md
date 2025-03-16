@@ -36,8 +36,8 @@ The dataset captures **key attributes** critical for understanding cardiovascula
 - **X (Predictors):** Health Metrics, Lifestyle Factors, Medical History  
 - **Y (Target):** Female Heart Attack Risk (`1 = At-risk`, `0 = No-risk`)
 
-- **1,708** no-risk cases
-- **944** at-risk cases
+  - **1,708** no-risk cases
+  - **944** at-risk cases
 
 ---
 
